@@ -202,18 +202,58 @@ transition: slide-left
 
 ---
 layout: center
+transition: slide-left
 ---
 
 # Let's have a demo
 
 ---
+transition: slide-left
+---
 
 # Benefits && Drawbacks
 
+<div class="grid grid-cols-2 gap-8 mt-16">
+  <div class="space-y-8">
+    <div v-click="1" class="bg-[#80eec020] border border-dashed border-[#80eec0] p-4">
+      <p class="!m-0">Compatible with any JavaScript framework</p>
+    </div>
+    <div v-click="3" class="bg-[#80eec020] border border-dashed border-[#80eec0] p-4">
+      <p class="!m-0">Integrates around your application, not the opposite</p>
+    </div>
+    <div v-click="4" class="bg-[#80eec020] border border-dashed border-[#80eec0] p-4 max-w-full">
+      <p class="!m-0">Many existing plugins from the Capacitor team, the Capacitor-community company and other open source developers</p>
+    </div>
+  </div>
+  <div class="space-y-8">
+    <div v-click="2" class="bg-[#f9674320] border border-dashed border-[#f96743] p-4">
+      <p class="!m-0">Not exactly "web development"</p>
+    </div>
+    <div v-click="5" class="bg-[#f9674320] border border-dashed border-[#f96743] p-4">
+      <p class="!m-0">Smaller community compared to native solutions</p>
+    </div>
+    <div v-click="6" class="bg-[#f9674320] border border-dashed border-[#f96743] p-4">
+      <p class="!m-0">You might still need to write some native code</p>
+    </div>
+  </div>
+</div>
+
+---
+transition: slide-left
 ---
 
-# Biggest drawback
+# Capacitor Voice Recorder
+
+<div>
+  <p>Capacitor voice recorder is a plugin to... <span v-click="1">record audio with your mobile device</span></p>
+  <img v-click="[2, 3]" class="fixed bottom-5 left-1/2 -translate-x-1/2 h-96" src="/images/capacitor-voice-recorder/base.png">
+  <img v-click="[3, 4]" class="fixed bottom-5 left-1/2 -translate-x-1/2 h-96" src="/images/capacitor-voice-recorder/send-file.png">
+  <img v-click="[4, 5]" class="fixed bottom-5 left-1/2 -translate-x-1/2 h-96" src="/images/capacitor-voice-recorder/chunk.png">
+  <img v-click="5" class="fixed bottom-5 left-1/2 -translate-x-1/2 h-96" src="/images/capacitor-voice-recorder/save-file.png">
+</div>
 
 ---
+layout: center
+---
 
-# Conclusion
+# Questions ?
