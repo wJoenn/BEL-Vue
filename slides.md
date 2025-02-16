@@ -157,6 +157,55 @@ transition: slide-left
 
 # What is Capacitor ?
 
+<div class="space-y-16 my-16">
+  <div class="flex gap-8 items-center">
+    <img class="h-24 shrink-0" src="/images/capacitor.png" />
+    <div class="bg-[#222222] rounded grow p-4">
+      <ul>
+        <li>An Open source cross-platform native runtime for web apps.</li>
+        <li>Includes many core native plugins such as Camera, File system, Geolocation etc</li>
+        <div class="flex gap-16">
+          <li>Framework agnostic</li>
+          <li>440k weekly download on NPM</li>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="bg-[#222222] rounded flex gap-8 p-4">
+    <div class="flex flex-col bg-[#80eec020] border-[#80eec0] border border-dashed p-4 pt-2 gap-2">
+      <p class="!m-0">Web View</p>
+      <div class="flex gap-8">
+        <div class="bg-[#9370db20] border border-dashed border-[#9370db] p-4">
+          <p class="!m-0">Web App</p>
+        </div>
+        <div class="bg-[#119eff20] border border-dashed border-[#119eff] p-4">
+          <p class="!m-0">Capacitor Bridge</p>
+        </div>
+      </div>
+    </div>
+    <div class="border border-dashed p-4 pt-2 gap-2 flex-col flex">
+      <p class="!m-0">Native runtime</p>
+      <div class="flex gap-8">
+        <div class="bg-[#f9674320] border border-dashed border-[#f96743] p-4">
+          <p class="!m-0">Camera</p>
+        </div>
+        <div class="bg-[#f9674320] border border-dashed border-[#f96743] p-4">
+          <p class="!m-0">File system</p>
+        </div>
+        <div class="bg-[#f9674320] border border-dashed border-[#f96743] p-4">
+          <p class="!m-0">Geolocation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# Let's have a demo
+
 ---
 
 # Benefits && Drawbacks
